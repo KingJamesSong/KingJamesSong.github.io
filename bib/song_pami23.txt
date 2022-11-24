@@ -1,0 +1,7 @@
+@article{song2022orthogonal,
+  title={Orthogonal SVD Covariance Conditioning and Latent Disentanglement},
+  author={Song, Yue and Sebe, Nicu and Wang, Wei},
+  journal={IEEE TPAMI},
+  year={2023},
+  publisher={IEEE}
+}
