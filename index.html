@@ -107,6 +107,7 @@
           <tr>
 	<td>
 	<ul>
+	  <li>2023/03: Our paper of jigsaw puzzle position embedding in vision Transformers has been accepted by CVPR.
 	  <li>2022/12: Our paper of applying orthogonality techniques on latent disentanglement (extension of ECCV) has been accepted by IEEE T-PAMI.
 	  <li>2022/10: Our paper fast differentiable matrix square root and its inverse (extension of ICLR) has been accepted by IEEE T-PAMI.
 	  <li>2022/09: Our paper on detecting distribution shifts has been accepted by NeurIPS 2022.
@@ -133,7 +134,48 @@
 
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-		
+	  
+	  <tr onmouseout="cvpr1_stop()" onmouseover="cvpr1_start()">
+            <td style="padding:10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='cvpr1_image'>
+                <img src='image/deit_posemb3.jpg' width="100%" height="70%">
+	        </div>
+                <img src='image/gradient_attack_cvpr.jpg' width="100%" height="70%">
+              </div>
+              <script type="text/javascript">
+                function cvpr1_start() {
+                  document.getElementById('cvpr1_image').style.opacity = "1";
+                }
+                function cvpr1_stop() {
+                  document.getElementById('cvpr1_image').style.opacity = "0";
+                }
+		pami3_stop()
+              </script>
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2205.12551">
+                <papertitle>Masked Jigsaw Puzzle : A Versatile Position Embedding for Vision Transformers</papertitle>
+              </a>
+              <br>
+	      <a href="https://scholar.google.com/citations?user=Md9maLYAAAAJ&hl=en">Bin Ren*</a>, 
+              <a href="https://scholar.google.com/citations?user=P8qd0rEAAAAJ&hl=en">Yahui Liu*</a>
+              <strong>Yue Song</strong>, 
+	      <a href="https://scholar.google.com/citations?user=aSJcgQMAAAAJ&hl=en">Wei Bi</a>
+	      <a href="https://scholar.google.com/citations?user=OM3sZEoAAAAJ&hl=en">Rita Cucchiara</a>
+              <a href="https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en">Nicu Sebe</a>, 
+              <a href="https://scholar.google.com/citations?user=k4SdlbcAAAAJ&hl=en&oi=ao">Wei Wang</a>
+              <br>
+              <em>International Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2023
+              <br>
+              <a href="https://arxiv.org/pdf/2205.12551.pdf/">paper</a> /
+              <a href="https://github.com/yhlleo/MJP">code</a> /
+              <a href="bib/song_cvpr23.txt">bibtex</a> 
+              <p></p>
+              </p>
+            </td>
+          </tr>
+	
 	  <tr onmouseout="pami3_stop()" onmouseover="pami3_start()">
             <td style="padding:10px;width:25%;vertical-align:middle">
               <div class="one">
