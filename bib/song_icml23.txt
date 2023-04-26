@@ -1,0 +1,7 @@
+@inproceedings{song2023latent,
+  title={Latent Traversals in Generative Models as Potential Flows},
+  author={Song, Yue and Keller, Andy and Sebe, Nicu and Welling, Max},
+  booktitle={ICML},
+  year={2023},
+  organization={PMLR}
+}
