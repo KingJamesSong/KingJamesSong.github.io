@@ -1,6 +1,0 @@
-@article{liu2022breaking,
-    author    = {Liu, Yahui and Ren, Bin and Song, Yue and Bi, Wei and Sebe, Nicu and Wang, Wei},
-    title     = {Breaking the Chain of Gradient Leakage in Vision Transformers},
-    journal    = {arXiv:2205.12551},
-    year      = {2022}
-}
