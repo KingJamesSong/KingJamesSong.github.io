@@ -1,0 +1,6 @@
+@inproceedings{song2023householder,
+  title={Householder Projector for Unsupervised Latent Semantics Discovery},
+  author={Song, Yue and Zhang, Jichao and Sebe, Nicu and Wang, Wei},
+  booktitle={ICCV},
+  year={2023}
+}
