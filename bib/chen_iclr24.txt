@@ -1,0 +1,6 @@
+@inproceedings{chen2024lie,
+  title={A Lie Group Approach to Riemannian Batch Normalization.},
+  author={Chen, Ziheng and Song, Yue and Liu, Yunmei and Sebe, Nicu},
+  booktitle={ICLR},
+  year={2024}
+}
