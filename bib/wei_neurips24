@@ -1,0 +1,6 @@
+@inproceedings{wei2024navigating,
+      title={Navigating Chemical Space with Latent Flows}, 
+      author={Guanghao Wei and Yining Huang and Chenru Duan and Yue Song and Yuanqi Du},
+      booktitle={NeurIPS},
+      year={2024}
+}
