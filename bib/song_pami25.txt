@@ -1,0 +1,6 @@
+@article{song2024unsupervised,
+  title={Unsupervised Representation Learning from Sparse Transformation Analysis},
+  author={Song, Yue and Keller, Thomas Anderson and Yue, Yisong and Perona, Pietro and Welling, Max},
+  journal={arXiv preprint arXiv:2410.05564},
+  year={2024}
+}
