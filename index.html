@@ -135,9 +135,9 @@
             <td style="padding:10px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='iccv25_image'>
-                <img src='image/Ex_attr_bind.png' width="100%" height="80%">
+                <img src='image/Ex_attr_bind.png' width="100%" height="90%">
 	        </div>
-                <img src='image/Ex_spatial.png' width="100%" height="80%">
+                <img src='image/Ex_spatial.png' width="100%" height="90%">
               </div>
               <script type="text/javascript">
                 function iccv25_start() {
@@ -146,7 +146,7 @@
                 function iccv25_stop() {
                   document.getElementById('iccv25_image').style.opacity = "0";
                 }
-		pami_sta_stop()
+		iccv25_stop()
               </script>
             </td>
             <td style="padding:10px;width:75%;vertical-align:middle">
@@ -154,16 +154,54 @@
                 <papertitle>Is CLIP ideal? No. Can we fix it? Yes!</papertitle>
               </a>
               <br>
-	      <a href="https://scholar.google.com/citations?user=49_WjdIAAAAJ&hl=en">Raphi Kang</a>
+	      <a href="https://scholar.google.com/citations?user=49_WjdIAAAAJ&hl=en">Raphi Kang</a>,
 	      <strong>Yue Song</strong>,
-	      <a href="https://scholar.google.com/citations?user=kQisE-gAAAAJ&hl=en">Georgia Gkioxari</a>
+	      <a href="https://scholar.google.com/citations?user=kQisE-gAAAAJ&hl=en">Georgia Gkioxari</a>,
 	      <a href="https://scholar.google.com/citations?user=j29kMCwAAAAJ&hl=en">Pietro Perona</a>, 
               <br>
               <em>International Conference on Computer Vision (ICCV)</em>, 2025
               <br>
               <a href="https://arxiv.org/pdf/2503.08723">paper</a> /
-              <a href="https://github.com/KingJamesSong/latent-flow">code</a> /
+              <a href="https://github.com/Raphoo/DCSM_Ideal_CLIP">code</a> /
               <a href="bib/kang_iccv25.txt">bibtex</a>&nbsp
+              <p></p>
+              </p>
+            </td>
+          </tr> 
+	<tr onmouseout="ccn_stop()" onmouseover="ccn_start()">
+            <td style="padding:10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ccn_image'>
+                <img src='image/ccn_kinematics.png' width="100%" height="90%">
+	        </div>
+                <img src='image/ccn_waves.png' width="100%" height="90%">
+              </div>
+              <script type="text/javascript">
+                function ccn_start() {
+                  document.getElementById('ccn_image').style.opacity = "1";
+                }
+                function ccn_stop() {
+                  document.getElementById('ccn_image').style.opacity = "0";
+                }
+		ccn_stop()
+              </script>
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2507.11531">
+                <papertitle>Langevin Flows for Modeling Neural Latent Dynamics</papertitle>
+              </a>
+              <br>
+	      <strong>Yue Song</strong>,
+	      <a href="https://scholar.google.com/citations?user=Tb86kC0AAAAJ">T. Anderson Keller</a>,
+              <a href="https://scholar.google.com/citations?user=tEk4qo8AAAAJ&hl=en">Yisong Yue</a>, 
+	      <a href="https://scholar.google.com/citations?user=j29kMCwAAAAJ&hl=en">Pietro Perona</a>, 
+              <a href="https://scholar.google.com/citations?user=8200InoAAAAJ&hl=en&oi=ao">Max Welling</a>
+              <br>
+              <em>Cognitive Computational Neuroscience (CCN)</em>, 2025
+              <br>
+              <a href="https://arxiv.org/pdf/2507.11531">paper</a> /
+              <a href="https://github.com/KingJamesSong/LangevinFlow_CCN">code</a> /
+              <a href="bib/song_ccn25.txt">bibtex</a>&nbsp
               <p></p>
               </p>
             </td>
