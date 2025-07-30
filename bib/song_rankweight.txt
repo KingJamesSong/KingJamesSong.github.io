@@ -1,0 +1,7 @@
+@article{song2024rankfeatweight,
+  title={RankFeat&RankWeight: Rank-1 Feature/Weight Removal for Out-of-distribution Detection},
+  author={Song, Yue and Wang, Wei and Sebe, Nicu},
+  journal={IEEE TPAMI},
+  year={2024},
+  publisher={IEEE}
+}
