@@ -1,0 +1,6 @@
+@article{kang2025clip,
+  title={Is CLIP ideal? No. Can we fix it? Yes!},
+  author={Kang, Raphi and Song, Yue and Gkioxari, Georgia and Perona, Pietro},
+  journal={ICCV},
+  year={2025}
+}
