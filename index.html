@@ -131,7 +131,43 @@
         </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
+	<tr onmouseout="iccv25_stop()" onmouseover="iccv25_start()">
+            <td style="padding:10px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='iccv25_image'>
+                <img src='image/Ex_attr_bind.png' width="100%" height="80%">
+	        </div>
+                <img src='image/Ex_spatial.png' width="100%" height="80%">
+              </div>
+              <script type="text/javascript">
+                function iccv25_start() {
+                  document.getElementById('iccv25_image').style.opacity = "1";
+                }
+                function iccv25_stop() {
+                  document.getElementById('iccv25_image').style.opacity = "0";
+                }
+		pami_sta_stop()
+              </script>
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2503.08723">
+                <papertitle>Is CLIP ideal? No. Can we fix it? Yes!</papertitle>
+              </a>
+              <br>
+	      <a href="https://scholar.google.com/citations?user=49_WjdIAAAAJ&hl=en">Raphi Kang</a>
+	      <strong>Yue Song</strong>,
+	      <a href="https://scholar.google.com/citations?user=kQisE-gAAAAJ&hl=en">Georgia Gkioxari</a>
+	      <a href="https://scholar.google.com/citations?user=j29kMCwAAAAJ&hl=en">Pietro Perona</a>, 
+              <br>
+              <em>International Conference on Computer Vision (ICCV)</em>, 2025
+              <br>
+              <a href="https://arxiv.org/pdf/2503.08723">paper</a> /
+              <a href="https://github.com/KingJamesSong/latent-flow">code</a> /
+              <a href="bib/kang_iccv25.txt">bibtex</a>&nbsp
+              <p></p>
+              </p>
+            </td>
+          </tr> 
 	<tr onmouseout="pami_sta_stop()" onmouseover="pami_sta_start()">
             <td style="padding:10px;width:25%;vertical-align:middle">
               <div class="one">
