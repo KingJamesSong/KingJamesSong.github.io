@@ -1,0 +1,6 @@
+@article{song2025kuramoto,
+  title={Kuramoto Orientation Diffusion Models},
+  author={Song, Yue and Keller, T. Anderson and Brodjian, Sevan and Miyato, Takeru and Yue, Yisong and Perona, Pietro and Welling, Max},
+  journal={NeurIPS},
+  year={2025}
+}
