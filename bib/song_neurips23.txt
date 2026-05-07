@@ -1,5 +1,5 @@
 @inproceedings{song2023flow,
-  title={Flow Factorzied Representation Learning},
+  title={Flow Factorized Representation Learning},
   author={Song, Yue and Keller, Andy and Sebe, Nicu and Welling, Max},
   booktitle={NeurIPS},
   year={2023}
