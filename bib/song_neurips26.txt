@@ -1,0 +1,6 @@
+@inproceedings{dai2026wonn,
+  title={Winfree Oscillatory Neural Network},
+  author={Dai, Jiawen and Song, Yue},
+  booktitle={NeurIPS},
+  year={2026}
+}
